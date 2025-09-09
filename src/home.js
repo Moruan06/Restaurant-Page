@@ -13,7 +13,8 @@ export const Home = (() => {
           <a href="https://www.instagram.com/beirutfoodtruck/">@beirutfoodtruck</a>
         </p>
       </div>
-      <img src="./images/330.jpg" alt="" />`;
-    return homePage;
+      <img src="./images/330.jpg" alt=""/>`;
   };
+
+  return { homePage };
 })();
