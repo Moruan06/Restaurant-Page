@@ -1,10 +1,10 @@
 import "./menu.css";
-import hamburgerImg from "./images/95.jpg";
-import lancheImg from "./images/49.jpg";
-import porcaoImg from "./images/58.jpg";
-import petiscoImg from "./images/334.jpg";
-import salgadoImg from "./images/63.jpg";
-import vegImg from "./images/276.jpg"; 
+import hamburgerImg from "./images/menu (4).jpg";
+import lancheImg from "./images/menu (1).jpg";
+import porcaoImg from "./images/menu (2).jpg";
+import petiscoImg from "./images/menu (6).jpg";
+import salgadoImg from "./images/menu (3).jpg";
+import vegImg from "./images/menu (5).jpg"; 
 
 export const Menu = (() => {
   const menuPage = (content) => {
