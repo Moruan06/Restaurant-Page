@@ -1,0 +1,11 @@
+.contactInfo p{
+  font-size: calc(var(--fontSize) * 1.5);
+  text-align: center;
+  line-height: 2;
+  color: white;
+}
+
+.contactInfo iframe{
+  width: clamp(250px, 50%, 400px);
+  aspect-ratio: 1/1;
+}
