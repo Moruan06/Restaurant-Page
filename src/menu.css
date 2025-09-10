@@ -1,7 +1,9 @@
 .menuContainer {
-  width: 70%;
+  width: clamp(350px, 70%, 1000px);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 50px;
 }
 
