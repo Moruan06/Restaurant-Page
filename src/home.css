@@ -1,9 +1,10 @@
+#content{
+  gap: 30px;
+}
+
 .text {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
   font-size: 2rem;
   color: white;
-  border-radius: 15px;
 }
 
 img{

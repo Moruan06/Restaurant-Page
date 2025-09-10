@@ -1,4 +1,5 @@
 import "./home.css";
+import LancheImg from './images/lanche.jpg';
 
 export const Home = (() => {
   const homePage = (content) => {
@@ -13,7 +14,7 @@ export const Home = (() => {
           <a href="https://www.instagram.com/beirutfoodtruck/">@beirutfoodtruck</a>
         </p>
       </div>
-      <img src="./images/330.jpg" alt=""/>`;
+      <img src= "${LancheImg}" alt="Lanche do restaurante"/>`;
   };
 
   return { homePage };
