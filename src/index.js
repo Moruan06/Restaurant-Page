@@ -1,7 +1,7 @@
 import "./style.css"
 import {Home} from "./home.js";
 import {Menu} from "./menu.js";
-import {Contact} from "./contato.js";
+import {Contact} from "./contact.js";
 
 const content = document.querySelector("#content");
 const homeButton = document.querySelector("#home");
