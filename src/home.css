@@ -7,11 +7,9 @@
   color: white;
 }
 
-img{
+.text + img{
   width: clamp(300px, 50%, 400px);
   aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 15px;
 }
 
 a {
