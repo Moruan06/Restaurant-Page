@@ -1,12 +1,14 @@
 import "./style.css"
 import {Home} from "./home.js";
+import {Menu} from "./menu.js";
+import {Contact} from "./contato.js";
 
 const content = document.querySelector("#content");
 const homeButton = document.querySelector("#home");
 const menuButton = document.querySelector("#menu");
 const contactButton = document.querySelector("#contato");
 
-// Home.homePage(content);
+Home.homePage(content);
 
 const removeClass = () => {
     homeButton.classList.remove("active")
